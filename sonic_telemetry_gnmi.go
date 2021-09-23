@@ -425,6 +425,7 @@ func (c *SONiCTelemetryGNMI) handleTelemetryField(update *gnmi.Update, tags map[
 				fields[name] = float_values
 			} else {
                 		fields[name] = value
+			} 
 		} else {
 			fields[name] = value
 		}
